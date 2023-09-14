@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+/* Nav css */
+
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+p{
+    color: white;
+}
+
+nav img{
+    margin-left: 7%;
+    width:7%;
+    margin-right: 22%;
+    margin-top: 1%;
+}
+
+.paranav1{
+    margin-right: 0%;
+    width: 23%;
+    height: 0%;
+    position: relative;
+    z-index:1;right: -12%;
+    margin-top: 4%;
+}
+
+
+.paranav2{
+    position: relative;
+    z-index:2;
+    background-color: transparent;
+}
+
+#para{
+    margin-right: 17%;
+}
+
+/* Main css */
+.para1{
+    font-size: 82px;
+    width: 137%;
+    margin-left: 11%;
+    color: white
+}
+
+.para2{
+    color: gray;
+    margin-left: 12%;
+    font-size: 21px
+}
+
+.image1{
+ height: 0%;
+ padding-top: 2px;
+ position: relative;
+ z-index: 1;
+ left: 4%;
+}
+
+.para3{
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.graydivlogo{
+margin-left: 5%;
+background: transparent
+}
+
+
+.image-container {
+    border: 2px solid white;
+    text-align: center;
+    width: 22%
+  }
+
+
+
+  /* Footer css */
+
+  .footer{
+    margin-left: 4%;
+    margin-top: 1%
+  }
+
+
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Background color and transparency of the overlay */
+        z-index: 4; /* Higher z-index to place the overlay on top of all the images */
+      }
+
+
+      .image2{
+        height: 0%;
+        padding-top: 2px;
+        position: relative;
+        z-index: 1;
+        left: 12%;
+        background: transparent;
+       }
+
+
+/* Tailwind css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
